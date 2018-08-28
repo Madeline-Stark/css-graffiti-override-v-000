@@ -4,8 +4,8 @@
 } /* tag 1 inside of wall is more specific so overrides*/
 #wall div#tag-2 {display: none;}
 div#wall #tag-3.slick.wicked {display: none;}
+#wall div#tag-4 {display: none;}
 /*
-#tag-3 + .parent #tag-4 {display: none;}
 #tag-4 + div#wall .parent #tag-5 .slick {display: none;}
 #tag-5 + div#wall div.parent div:last-child #tag-6 {display: none;}
 #tag-6 + body div#wall div.parent div > #tag-7 .slick {display: none;}
