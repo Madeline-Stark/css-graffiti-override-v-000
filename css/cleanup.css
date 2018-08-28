@@ -3,8 +3,7 @@
   display: none;
 } /* tag 1 inside of wall is more specific so overrides*/
 #wall div#tag-2 {display: none;}
-
-#tag-2 + #tag-3 .slick .wicked {display: none;}
+div#wall #tag-3.slick.wicked {display: none;}
 /*
 #tag-3 + .parent #tag-4 {display: none;}
 #tag-4 + div#wall .parent #tag-5 .slick {display: none;}
