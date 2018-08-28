@@ -2,7 +2,7 @@
 #wall .tag-1 {
   display: none;
 } /* tag 1 inside of wall is more specific so overrides*/
-body div#tag-2 {display: none;}
+#wall div#tag-2 {display: none;}
 /*
 #tag-2 + #tag-3 .slick .wicked {display: none;}
 #tag-3 + .parent #tag-4 {display: none;}
